@@ -85,7 +85,7 @@ def play_audio_file(output_file):
 def paginate_output(lines):
     # Get terminal size
     terminal_size = shutil.get_terminal_size((80, 24))
-    page_size = terminal_size.lines - 3  # Leave room for prompt and avoid zero or negative
+    page_size = terminal_size.lines - 15  # Leave room for prompt and avoid zero or negative
 
     # Paginate the lines
     total_lines = len(lines)
