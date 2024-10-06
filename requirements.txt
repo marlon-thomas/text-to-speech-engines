@@ -1,2 +1,4 @@
-pygame~=2.4.0
+pygame # Only required if you plan to use --play
 edge_tts
+tqdm
+import contextlib
